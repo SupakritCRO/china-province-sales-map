@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { storeProducts } from "../pages/LossMakingScanner";
+import { useState } from "react";
 import SaleTrendChart from "./SaleTrendChart";
 import ProductGPSankeyChart from "./ProductGPSankeyChart";
 
@@ -9,7 +8,6 @@ interface StoreProductsTableProps {
 }
 
 export default function StoreProductsTable({
-  storeName,
   onBack,
 }: StoreProductsTableProps) {
   // Look up products for the given store name
