@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  /* Primary Green Palette */
+  --color-cpg-green-50: #E6F4EA;
+  --color-cpg-green-100: #CCE9D5;
+  --color-cpg-green-200: #B3DEC0;
+  --color-cpg-green-300: #99D3AA;
+  --color-cpg-green-400: #80C895;
+  --color-cpg-green-500: #66BD80;
+  --color-cpg-green-600: #4DB26A;
+  --color-cpg-green-700: #33A755;
+  --color-cpg-green-800: #1A9C40;
+  --color-cpg-green-900: #00912A;
+  --color-cpg-green-950: #007A3D;
+
+  /* Secondary Teal Palette */
+  --color-cpg-teal-100: #D1E8E2;
+  --color-cpg-teal-300: #A3D1C5;
+  --color-cpg-teal-500: #75BAA8;
+  --color-cpg-teal-700: #47A38B;
+
+  /* Neutral Gray Palette */
+  --color-cpg-gray-50: #F9FAFB;
+  --color-cpg-gray-100: #F3F4F6;
+  --color-cpg-gray-200: #E5E7EB;
+  --color-cpg-gray-300: #D1D5DB;
+  --color-cpg-gray-400: #9CA3AF;
+  --color-cpg-gray-500: #6B7280;
+  --color-cpg-gray-600: #4B5563;
+  --color-cpg-gray-700: #374151;
+  --color-cpg-gray-800: #1F2A44;
+  --color-cpg-gray-900: #111827;
+
+  /* Base Colors (from your original theme) */
+  --color-cpg-green: #00A651;        /* Maps to ~cpg-green-750 */
+  --color-cpg-green-light: #E6F4EA;  /* Maps to cpg-green-50 */
+  --color-cpg-green-dark: #007A3D;   /* Maps to cpg-green-950 */
+  --color-cpg-gray: #6B7280;         /* Maps to cpg-gray-500 */
+  --color-cpg-gray-light: #F3F4F6;   /* Maps to cpg-gray-100 */
+  --color-cpg-gray-dark: #374151;    /* Maps to cpg-gray-700 */
+  --color-cpg-white: #FFFFFF;
+  --color-cpg-black: #1F2A44;        /* Maps to cpg-gray-800 */
+
+  /* Utility Colors */
+  --color-cpg-success-500: #34C759;
+  --color-cpg-warning-500: #FBBF24;
+  --color-cpg-error-500: #EF4444;
+  --color-cpg-info-500: #3B82F6;
+
+  /* Font */
+  --font-display: "Satoshi", "sans-serif";
+}
